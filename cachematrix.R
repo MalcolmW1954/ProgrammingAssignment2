@@ -1,15 +1,46 @@
-## Put comments here that give an overall description of what your
-## functions do
+##
+## This is a PARTIALLY COMPLETE piece of code for Programming Assignment 2
+##           ==================          
+## 
 
-## Write a short comment describing this function
+## This function creates a cached matrix object.
 
-makeCacheMatrix <- function(x = matrix()) {
-
+makeCacheMatrix <- function(x = matrix, ...) {
+  
+  mm <- NULL #creates an empty variable 
+  
+  mm= matrix(mm,nrow = 7,ncol = 7) 
+  #sets mm to a square matrix as required by assignment
+  
+  
+  get <- function() x   ## return the value of the stored mm object
+  
+  setmatrix <- function(mean){}
+    mm <<- mean
+  }  
+  getmatrix <- function() m
+  
 }
 
 
-## Write a short comment describing this function
+
+## This function computes the inverse of the matrix
+## cached by makeCacheMatrix above.
+
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+        
+  
+  getmatrix <<- function(mm)
+  ## acquires cached matrix from wherever
+  
+  solve(mm)
+  
+  return(mm)
 }
+
+
+
+
+
+
