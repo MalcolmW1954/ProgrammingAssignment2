@@ -32,7 +32,7 @@ cacheSolve <- function(x, ...) {
         
   
   getmatrix <<- function(mm)
-  ## acquires cached matrix from wherever
+  ## acquires cached matrix from environment
   
   solve(mm)
   
